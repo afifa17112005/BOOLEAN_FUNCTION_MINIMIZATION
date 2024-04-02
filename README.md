@@ -32,21 +32,25 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+Developed by:A.AFIFA
+RegisterNumber:212223040008
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+module Booleanexpressionmin(a,b,c,d,w,x,y,z,f1,f2); input a,b,c,d,w,x,y,z; output f1,f2; wire adash,bdash,cdash,ddash,ydash,p,q,r,s,t,u; not(adash,a); not(bdash,b); not(cdash,c); not(ddash,d); not(ydash,y); and(p,bdash,ddash); and(q,adash,b,d); and(r,a,b,cdash); or(f1,p,q,r); and(s,ydash,z); and(t,x,y); and(u,w,y); or(f2,s,t,u); endmodule
 
 
-**RTL realization**
+
 
 **Output:**
+![Screenshot 2024-04-02 144328](https://github.com/afifa17112005/BOOLEAN_FUNCTION_MINIMIZATION/assets/147080931/6ba53805-b59e-41e0-bd72-f1f191a9a30b)
 
-**RTL**
 
-**Timing Diagram**
+
+
 
 **Result:**
+Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
+
+
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
